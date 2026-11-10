@@ -36,7 +36,7 @@ jobs:
           cache-to: type=gha,mode=max
 
       - name: Deploy to production
-        uses: rust-lang/simpleinfra/github-actions/upload-docker-image@8a84f3f40d2cf82dbea7dd67d027ded23a008521 # master
+        uses: rust-lang/simpleinfra/github-actions/upload-docker-image@bc67f5e70466425fea2a532b02d2bba73e028251 # master
         with:
           image: rustc-perf
           repository: rust-rustc-perf
